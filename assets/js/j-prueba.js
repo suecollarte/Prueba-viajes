@@ -21,10 +21,10 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-/* uso de clase con js script al hacer click*/
+/* uso de clase utilitaria con js script al hacer click a un tag*/
 $(document).ready(function (){
 
-    $("#cambia").click(function(){
+  $("#cambia").click(function(){
  $("#cambia").toggleClass("fs-4");
     })
 
