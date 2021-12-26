@@ -1,3 +1,4 @@
+// Permite que las anclas desde el menu se deslicen suavemente y ademas mas abajo la section desplegar
 $(document).ready(function (){
 
 $("a").click(function () {
@@ -15,7 +16,7 @@ scrollTop: $(gato).offset().top - 70
 
 
 })
-
+// Se agrega tooltiptrigger
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
