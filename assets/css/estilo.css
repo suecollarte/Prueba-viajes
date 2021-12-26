@@ -1,0 +1,86 @@
+
+html{
+
+    scroll-behavior: auto!important;
+}
+body {
+    font-family: "Helvetica";background-color: #373a3c;
+    
+}
+h1{
+    font-size:52px;
+}
+
+/* NavBar */
+.navbar {
+background-color: #1f9cc9;
+position: fixed;
+width:100vw;
+z-index:1;
+}
+.navbar-brand {
+font-family:"Oswald";
+font-size:24px;
+font-weight:700;
+
+}
+.img1{
+width:50px;
+
+}
+/* hirosection */
+#Hero-section{
+   /*  background-image:url("../img/punta.jpg");
+    background-repeat:no-repeat;
+    background-size:cover; */
+    background-position: center;
+    height:100vh;
+
+    
+}
+
+#Hero-section div{
+position:absolute;
+bottom: 60px;
+left:0;
+right:0;
+margin:auto;
+
+}
+
+
+
+/* quienes somos*/
+
+
+#quienes-somos i{
+    color:#f2eff2; 
+}
+
+/* Destacados*/
+
+
+#destacados img{
+  
+    height:110px;
+    object-fit: cover;
+    }
+/* contacto*/
+
+
+/* Footer */
+#foot {
+    background-color:#1f9cc9;
+}
+
+#foot a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/* Modal*/
+#ModalLabel{
+    color:rgb(216, 238, 231);
+    background-color: black;
+}
