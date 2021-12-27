@@ -13,7 +13,7 @@ h1{
 
 /* NavBar */
 .navbar {
-background-color: #1f9cc9;
+background-color: #1f9cc9!important;
 position: fixed;
 width:100vw;
 z-index:1;
