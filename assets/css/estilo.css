@@ -16,7 +16,7 @@ h1{
 background-color: #1f9cc9!important;
 position: fixed;
 width:100vw;
-z-index:1;
+z-index:2;
 }
 .navbar-brand {
 font-family:"Oswald";
@@ -28,27 +28,6 @@ font-weight:700;
 width:50px;
 
 }
-/* hirosection */
-#Hero-section{
-   /*  background-image:url("../img/punta.jpg");
-    background-repeat:no-repeat;
-    background-size:cover; */
-    background-position: center;
-    height:100vh;
-
-    
-}
-
-#Hero-section div{
-position:absolute;
-bottom: 60px;
-left:0;
-right:0;
-margin:auto;
-
-}
-
-
 
 /* quienes somos*/
 
